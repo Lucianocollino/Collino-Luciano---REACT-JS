@@ -5,7 +5,7 @@ import ItemList from "../ItemList/ItemList"
 const ItemListConteiner = ({ greeting }) => {
     const [products, setProducts] = useState([])
 
-    const { categoryId } = useParams()
+   
 
     useEffect(() => {
         const asyncFunc = categoryId ? getProductByCategory : getProducts

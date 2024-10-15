@@ -1,6 +1,7 @@
+import "./ItemDetail.css"
+import ItemCount from "../ItemCount/ItemCount"
 
-
-const ItemDetail = ({id,nombre,precio,imagenUrl,stock}){
+const ItemDetail = ({id,nombre,precio,imagenUrl,stock}) => {
 
 return(
     <article className="CardItem">
@@ -21,7 +22,7 @@ return(
             Stock disponible: {stock}</p>
         </section>
         <footer className="ItemFooter">
-            
+            <ItemCount inital={1} stock ={stock} onAdd={(quantity) => console.log ("cantidad agregada")}/>
             <button className="Option">
                 Ver detalle
             </button>
@@ -29,3 +30,5 @@ return(
     </article>
 )
 }
+
+export default ItemDetail;
