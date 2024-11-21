@@ -12,18 +12,18 @@ createRoot(document.getElementById('root')).render(
   </BrowserRouter>,
 )
 
-// return(
-//  <div>
-  //  <Routes>
-    //  <Route path="/" element={<HOME/>} />
-      //<Route path="/" element={<PALETAS/>} />
-      //<Route path="/" element={<BOLSOS/>} />
-      //<Route path="/" element={<ACCESORIOS/>} />
+ return(
+  <div>
+    <Routes>
+      <Route path="/" element={<HOME/>} />
+      <Route path="/" element={<PALETAS/>} />
+      <Route path="/" element={<BOLSOS/>} />
+      <Route path="/" element={<ACCESORIOS/>} />
      
 
 
-    //</Routes>
+    </Routes>
 
 
-  //</div>
-//)
+  </div>
+)

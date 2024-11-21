@@ -13,8 +13,6 @@ const ItemListConteiner = ({ greeting }) => {
 
     const {categoryId} = useParams()
 
-   
-
     useEffect(() => {
         setLoading(true)
 
